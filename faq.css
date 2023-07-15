@@ -59,6 +59,10 @@
 
 
   /*works of a ca page*/
+#works{
+    background-color: black;
+    color: white;
+  }
 #works  h1{
     font-family: 'Chela One', cursive;
     text-decoration: 2px underline goldenrod;
