@@ -234,7 +234,7 @@ margin: 10px 50px;
   /* testimonials page*/
 #tests  {
     margin-top: 6%;
-    background-color:aqua;
+     background-color: darkslateblue;
     height: auto;
 }
 #tests h1{
@@ -242,6 +242,7 @@ margin: 10px 50px;
     text-align: center;
     text-decoration:2px goldenrod underline;
     font-family: 'Chela One', cursive;
+     color: white;
 }
 #tests .box-container {
     display: flex;
