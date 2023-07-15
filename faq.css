@@ -1,5 +1,116 @@
+/*main page*/
+/* style.css */
+
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+#main body {
+    font-family: 'Chela One', cursive;
+    background-image: url("bg.jpg");
+    background-size: cover;
+}
+
+#main a {
+    text-decoration: none;
+}
+
+/* Navbar styles */
+#main #navbar {
+    background-color:#333;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    bottom: 20px;
+}
+
+#main #index {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+}
+
+#main #index::after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    background-color: #333;
+}
+
+#main #index:hover::after {
+    background-color: #555;
+}
+
+#main img {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+}
+
+#main button {
+    background-color: transparent;
+    border: none;
+    color: goldenrod;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: cursive;
+}
+
+#main button:hover {
+    background-color: #555;
+}
+
+/* Content section styles */
+#main .l {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#main .par {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color:white
+}
+
+#main button a {
+    color: goldenrod;
+    font-size: 20px;
+}
+
+#main button a:hover {
+    color: #555;
+}
+
+#main .b {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
 /*about us page*/
+#about{
+    margin-top: 6%;
+}
 #about body{
+    
     background-color: none;
   }
   #about .column,.column1{
@@ -59,7 +170,7 @@
 
 
   /*works of a ca page*/
-#works{
+  #works{
     background-color: black;
     color: white;
   }
@@ -163,7 +274,9 @@
         margin-top: 5%;
     }
     #incen   .rewards{
-        display: flex;
+        
+            Display: block;
+            
     }
     #incen  .column3{
     margin: 10px 600px 10px 310px;
@@ -174,67 +287,115 @@
     #incen    .column5{
         margin: 10px 10px 10px 900px;
     }
-       @media only screen and (max-width:600px){
-        #about   body h1{
-            font-size: 40px;
-        }
-        #about   .demo{
-            font-size: 20px;
-        }
-        #about   .column{
-            height:180px;
-            margin: 10px;
-        }
-        #about   .img1{
-            width: 35%;
-        padding: 10px;
-        margin: 0px 5px 10px 0px;
- }
- #about    .column1{
-margin: 10px 50px;
-    }   
-    #about    .img2{
-        padding: 5px;
-        margin: 2px 6px;
-    }
-    #incen        section .container{
-            flex-direction: column;
-        }
-        #incen      .column2,.column3,.column4,.column5{
-            margin:20px 60px;
-        }
-    }  
-    @media only screen and (max-width:1279px) and (min-width:601px){
-        #about    .column{
-            height: 180px;
+    @media only screen and (max-width:1200px) and (min-width:601px){
+        .column{
+            height: auto;
             margin: 5px 10% 10px 10%;
         }
-        #about   .demo{
+        .demo{
             padding: 20px;
         }
-        #about   .img1{
+       .img1{
         width:35% ;
         padding: 5px;
         margin: 0px 8px 10px 0px;
        }
-       #about  .img2{
+       .img2{
         width:40%;
         padding: 1%;
         margin:0% 4% 5% 0%;
        }
-       #about   .column1{
+        .column1{
             margin:30px 30%;
         }
-        #incen  .column2,.column3,.column4,.column5{
+        .column2,.column3,.column4,.column5{
             margin: 10px 20%;
+            height: 300px;
         }
     }
-   
+@media only screen and (min-width:300px) and (max-width:600px){
+
+    .container{
+        flex-direction: column;
+    }
+    .rewards{
+        flex-direction: column;
+    }
+
+    body h1{
+        font-size: 30px;
+    }
+    .demo{
+        font-size: 20px;
+    }
+    .column{
+        height: 180px;
+        margin: 5px 10% 10px 10%;
+    }
+    .demo{
+        padding: 20px;
+    }
+   .img1{
+    width:35% ;
+    padding: 5px;
+    margin: 0px 8px 10px 0px;
+   }
+   .img2{
+    width:40%;
+    padding: 1%;
+    margin:0% 4% 5% 0%;
+   }
+    .column1{
+        height: 200px;
+        margin:30px 10%;
+    }
+    .column2,.column3,.column4,.column5{
+        margin: 10px 15%;
+        height: 260px;
+    }
+    .s5{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:300px){
+    .demo{
+        text-indent: 30px;
+        font-size: 20px;
+    }
+    .img1,.img2{
+        width: 70%;
+    }
+    .s5{
+        width:100%;
+    }
+    .rewards{
+        flex-direction: column;
+    }
+    
+    .container{
+        flex-direction: column;
+    }
+    .column,.column1{
+        height: auto;
+        margin: 2px 10% 5px 10%;
+    }
+    .column1{
+        height: 350px;
+    }
+    .s6{
+        font-size: 23px;
+    }
+    .column2,.column3,.column4,.column5{
+        height: fit-content;
+        margin: 5%;
+    }
+
+}
 
   /* testimonials page*/
 #tests  {
     margin-top: 6%;
-     background-color: darkslateblue;
+   background-color: darkslateblue;
     height: auto;
 }
 #tests h1{
@@ -242,7 +403,7 @@ margin: 10px 50px;
     text-align: center;
     text-decoration:2px goldenrod underline;
     font-family: 'Chela One', cursive;
-     color: white;
+    color: white;
 }
 #tests .box-container {
     display: flex;
@@ -289,7 +450,8 @@ margin: 10px 50px;
 
   /*faq's page*/
 #faqs{
-   margin-top: 0;
+
+    margin-top: 0;
 }
 #faqs #faq{
     
@@ -331,7 +493,7 @@ margin: 10px 50px;
     margin-left: 20px;
   }
   #faqs hr{
-     margin-left: 15%;
+    margin-left: 15%;
     color: black;
     width: 710px;
   }
@@ -505,7 +667,7 @@ margin: 10px 50px;
 }
 /*copyrights css*/
 #copies{
-    margin-top: 5%;
+   /* margin-top: 5%;*/
     font-family: cursive;
 }
 #copies  {
