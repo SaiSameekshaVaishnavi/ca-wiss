@@ -331,7 +331,8 @@ margin: 10px 50px;
     margin-left: 20px;
   }
   #faqs hr{
-    color: black;
+     margin-left: 15%;
+    color: gold;
     width: 710px;
   }
   #faqs  hr.visible{
