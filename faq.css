@@ -289,11 +289,11 @@ margin: 10px 50px;
 
   /*faq's page*/
 #faqs{
-    background-color: darkblue;
+   margin-top: 0;
 }
 #faqs #faq{
     
-    color: gold;
+    color: goldenrod;
     margin: 5% 3%;
     margin-left: 10%;
     margin-right: 10%;
@@ -332,7 +332,7 @@ margin: 10px 50px;
   }
   #faqs hr{
      margin-left: 15%;
-    color: gold;
+    color: black;
     width: 710px;
   }
   #faqs  hr.visible{
