@@ -1,0 +1,526 @@
+/*about us page*/
+#about body{
+    background-color: none;
+  }
+  #about .column,.column1{
+    flex: 20%;
+    height: 200px;
+    padding: 10px;
+    margin: 15px 150px 15px 150px;
+    background-color: #cccccc;
+    text-align: center;
+    border-radius: 0px 30px;
+  }
+  #about  .container {
+     display: flex;
+  }	
+  #about .column1{
+    margin: 15px 400px;
+  }
+  #about h1,#incen h1{
+    text-align: center;
+    font-family: 'Chela One', cursive;
+    font-size: 50px;
+    letter-spacing: 1px;
+    text-decoration: 2px underline goldenrod;
+}
+#about .demo{
+    font-family: cursive;
+    padding: 15px;
+    margin: 30px 10px ;
+    text-indent: 75px;
+    text-align-last:center ;
+    font-size: 25px;
+}
+#about img{
+    float: left;
+}
+#about .s5{
+    margin: 10px 0px 10px;
+}
+#about .img1{
+    height: 120px;
+    width: 40%;
+    padding:10px 12px;
+}
+#about .img2{
+    height:120px;
+   width:40%;
+   padding:10px 19px ;
+}
+#about  h2{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Chela One', cursive;
+    letter-spacing: 1px;
+}
+
+
+
+
+  /*works of a ca page*/
+#works  h1{
+    font-family: 'Chela One', cursive;
+    text-decoration: 2px underline goldenrod;
+  }
+#works .card {
+    margin-top: 5%;
+    width: 18rem;
+    background-color: aquamarine;
+    border-radius: 30px;
+  }
+  
+  #works .card-img-top {
+    height: 300px;
+    object-fit: cover;
+    filter: drop-shadow(0 0 20px gold);
+  }
+  
+  #works  .card-body {
+    padding: 1rem;
+  }
+  
+   #works .card-title {
+    
+    font-weight: bold;
+    font-family: 'Chela One', cursive;
+    font-size: 30px;
+  }
+  
+  #works .card-text {
+    font-size: 1rem;
+    font-family: cursive;
+  }
+  
+  #works  .carousel-control-prev-icon {
+    background-color: aquamarine;
+   color: blue;
+  }
+  #works  .carousel-control-next-icon {
+    background-color: aquamarine;
+   color: blue;
+  }
+  
+  #works  .carousel-control-prev {
+    width: 5%;
+  }
+  #works   .carousel-control-next {
+    width: 5%;
+  }
+  
+  #works .carousel-control-prev {
+    left: 0;
+  }
+  
+  #works .carousel-control-next {
+    right: 0;
+  }
+
+
+  /*incentives page*/
+#incen{
+    margin-top: 5%;
+}
+#incen h2{
+    font-family: 'Chela One', cursive;
+    font-size: 20px;
+}
+
+#incen  .column2,.column3,.column4,.column5{
+    
+    flex: 20%;
+    background-color: lightgray;
+    height: 180px;
+    margin: 10px 900px 10px 30px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 0px 50px;
+    }
+    #incen .column2a,.column3a,.column4a,.column5a{
+        display: flex;
+        flex-direction: row;
+    }
+    #incen .column2a img{
+        margin-left: 2%;
+    }
+    #incen .column2a,.column3a,.column4a img ,.column5a  img{
+        margin-left: 4%;
+    }
+    #incen     .img3{
+        width: 130px;
+        height: 130px;
+        margin-top: 0px;
+    
+    }
+    #incen    .column2 p,.column3 p,.column4 p,.column5 p{
+        font-size: 20px;
+        padding: 5px;
+        font-family: cursive;
+        margin-top: 5%;
+    }
+    #incen   .rewards{
+        display: flex;
+    }
+    #incen  .column3{
+    margin: 10px 600px 10px 310px;
+    }
+    #incen   .column4{
+        margin: 10px 300px 10px 610px;
+    }
+    #incen    .column5{
+        margin: 10px 10px 10px 900px;
+    }
+       @media only screen and (max-width:600px){
+        #about   body h1{
+            font-size: 40px;
+        }
+        #about   .demo{
+            font-size: 20px;
+        }
+        #about   .column{
+            height:180px;
+            margin: 10px;
+        }
+        #about   .img1{
+            width: 35%;
+        padding: 10px;
+        margin: 0px 5px 10px 0px;
+ }
+ #about    .column1{
+margin: 10px 50px;
+    }   
+    #about    .img2{
+        padding: 5px;
+        margin: 2px 6px;
+    }
+    #incen        section .container{
+            flex-direction: column;
+        }
+        #incen      .column2,.column3,.column4,.column5{
+            margin:20px 60px;
+        }
+    }  
+    @media only screen and (max-width:1279px) and (min-width:601px){
+        #about    .column{
+            height: 180px;
+            margin: 5px 10% 10px 10%;
+        }
+        #about   .demo{
+            padding: 20px;
+        }
+        #about   .img1{
+        width:35% ;
+        padding: 5px;
+        margin: 0px 8px 10px 0px;
+       }
+       #about  .img2{
+        width:40%;
+        padding: 1%;
+        margin:0% 4% 5% 0%;
+       }
+       #about   .column1{
+            margin:30px 30%;
+        }
+        #incen  .column2,.column3,.column4,.column5{
+            margin: 10px 20%;
+        }
+    }
+   
+
+  /* testimonials page*/
+#tests  {
+    margin-top: 6%;
+    background-color:aqua;
+    height: auto;
+}
+#tests h1{
+    margin-top: 4%;
+    text-align: center;
+    text-decoration:2px goldenrod underline;
+    font-family: 'Chela One', cursive;
+}
+#tests .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 4% 5% 3% auto;
+    padding: 3% 5% 3% auto;
+    align-items: center;
+    color: black;
+    @media (max-width:767px) {
+        display: flex;
+        flex-direction: column;
+
+    }
+  }
+  #tests .box {
+    font-family: cursive;
+    color: whitesmoke;
+    width: 25%;
+    height: 30%;
+    border: 1px solid wheat;
+    background-color: black;
+    padding: 2% 0 2% 1%;
+    border-radius: 20px;
+    font-size: 18px;
+    box-shadow: 10px 10px 8px #fff;
+    @media (max-width:767px) {
+        width:65%;
+        height:4%;
+        margin-top: 7%;
+        text-align: center;
+    }
+  }
+  #tests .name{
+    margin-top: 2%;
+    float: right;
+    padding-right: 2%;
+    @media (max-width:767px) {
+       margin-top: 2%;
+    }
+  }
+
+  /*faq's page*/
+#faqs{
+    background-color: darkblue;
+}
+#faqs #faq{
+    
+    color: gold;
+    margin: 5% 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#faqs section{
+    @media (max-width:767px) {
+        zoom: 0.4;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        word-spacing: 5px;
+    }
+}
+#faqs h1{
+    margin-top: 4%;
+    text-align: center;
+    font-family: 'Chela One', cursive;
+    margin-bottom: 3%;
+}
+#faqs .set {
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: cursive;
+  }
+  
+  #faqs .ques {
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  #faqs .ans {
+    text-align: center;
+    display: none;
+    margin-left: 20px;
+  }
+  #faqs hr{
+    color: black;
+    width: 710px;
+  }
+  #faqs  hr.visible{
+    width:960px;
+  }
+
+
+  /*contact page*/
+  #contact {
+    height: 100%;
+    width: 100%;
+}
+  
+  #contact .hero {
+    margin:  auto 22rem 10rem;
+    margin-top: 4rem;
+    padding: 60px 20px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   background-color: wheat;
+   @media (max-width:767px) {
+         padding: auto;
+         height:auto;
+         width:100%;
+         margin:5px auto;
+         padding-left:9px ;
+        
+   }
+  }
+  
+  #contact .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+  }
+  
+  #contact .input ,textarea{
+    padding: 1rem 1.2rem;
+    margin: 1rem;
+    border-radius: 2rem;
+    display: block;
+    width: 80%;
+    border: none;
+    box-shadow: inset 6px 6px 8px rgba(97, 97, 97, 0.075),
+      6px 6px 6px rgba(255, 255, 255, 0.781);
+    outline: none;
+    background-color: inherit;
+    color: rgb(161, 161, 161);
+    font-size: inherit;
+    font-family: cursive;
+    @media (max-width:767px) {
+       
+        width:35%;
+    }
+  }
+ 
+  
+ #contact  .logo {
+    font-size: 3rem;
+    color: black;
+    font-weight: 600;
+    margin: 30px;
+    @media (max-width:767px) {
+       text-align:center;
+    }
+  }
+  
+ #contact ::placeholder {
+    color: rgb(161, 161, 161);
+  }
+  
+  
+  #contact .hero form a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    
+    font-size: 26px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    margin-top: 40px;
+    letter-spacing: 4px
+  }
+  #contact a{
+    font-family: cursive;
+  }
+  #contact .hero a:hover {
+    background: rgba(10, 10, 174, 0.9);
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #f4f001,
+                0 0 25px #f4f001,
+                0 0 50px #f4f001,
+                0 0 100px #f4f001;
+  }
+  
+  #contact .hero a span {
+    position: absolute;
+    display: block;
+  }
+  
+  @keyframes btn-anim1 {
+    0% {
+      left: -100%;
+    }
+  
+    50%,100% {
+      left: 100%;
+    }
+  }
+  
+  #contact .hero a span:nth-child(1) {
+    bottom: 2px;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #f4f001);
+    animation: btn-anim1 2s linear infinite;
+  }
+
+
+/*contact details page*/
+#contactdetails{
+    font-family: cursive;
+    background-color: aquamarine;
+}
+#contactdetails  .center{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    @media (max-width:767px) 
+    {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-left: 0;
+    }
+}
+#contactdetails  .CONTACT{
+        display: inline-flex;
+        flex-direction: row;
+        margin: auto 17em 10px;
+        @media (max-width:767px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+}
+#contactdetails  .CONTACT h2{
+    margin-top: 25px;
+    margin-left: 4em;
+    @media (max-width:767px) {
+        text-align: center;
+        margin: 25px 10px auto;
+    }
+}
+
+#contactdetails  h1{
+    @media (max-width:767px) {
+        font-size: x-large!important;
+    }
+}
+/*copyrights css*/
+#copies{
+    margin-top: 5%;
+    font-family: cursive;
+}
+#copies  {
+    background-color:black;
+    height: 10vh;
+    width: 100%;
+}
+#copies  .container-class{
+    color: white;
+    text-align: center;
+    padding: 18% 3% auto;
+}
+#copies  .copy{
+    font-size: 20px;
+}
+#copies  .img-box{
+   margin: 6px 5px 8px 5px;
+   padding-right:3em;
+   
+}
+#copies  .img-box img{
+  
+    margin-right: 19px;
+}
