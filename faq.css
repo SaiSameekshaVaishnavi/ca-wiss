@@ -1,21 +1,19 @@
-/*main page*/
-/* style.css */
 
-/* Reset default browser styles */
-* {
+#main ,#mt{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+#mt{
+    background-color:black;
+}
 /* Global styles */
-#main body {
+#main #bg body {
     font-family: 'Chela One', cursive;
-    background-image: url("bg.jpg");
-    background-size: cover;
 }
 
-#main a {
+#main a,#mt a {
     text-decoration: none;
 }
 
@@ -27,9 +25,10 @@
     padding: 10px;
     position: relative;
     bottom: 20px;
+    margin-bottom: 0;
 }
 
-#main #index {
+/*#main #index {
     width: 50px;
     height: 50px;
     background-color: #fff;
@@ -46,15 +45,17 @@
 
 #main #index:hover::after {
     background-color: #555;
-}
+}*/
 
 #main img {
     width: 50px;
     height: 50px;
     margin: 0 10px;
 }
-
-#main button {
+#bg{
+    margin-top: 0;
+}
+#main button ,#mt button{
     background-color: transparent;
     border: none;
     color: goldenrod;
@@ -65,42 +66,51 @@
     font-family: cursive;
 }
 
-#main button:hover {
+#main button:hover,#mt button:hover {
     background-color: #555;
 }
-
+#mt{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk2nw3j70N-pKPye5huY-HWrt8cmBWnsOr5Q&usqp=CAU");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 /* Content section styles */
-#main .l {
+#mt .l {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
 }
 
-#main .par {
+#mt .par {
     font-family: 'Chela One', cursive;
     font-size: 6em;
     font-weight: bold;
     text-align: center;
     margin-bottom: 20px;
-    color:black;
+    color:whitesmoke;
 }
 
 #main button a {
     color: goldenrod;
     font-size: 20px;
 }
+#mt button{
+    border-radius: 12px;
+   border: 1px solid wheat; 
+}
+#mt button a:hover {
+    color: wheat;
 
-#main button a:hover {
-    color:wheat;
 }
 
-#main .b {
+#mt .b {
     width: 200px;
     height: 200px;
     margin-top: 20px;
     border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    filter:drop-shadow(0 0 10px rgba(0, 0, 0, 0.2));
 }
 
 

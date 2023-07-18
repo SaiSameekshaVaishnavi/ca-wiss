@@ -1,5 +1,5 @@
 body {
-    background-image: url("Applynowx.avif.jpeg");
+    background-image: url("applynowx.avif");
     font-family: Arial, sans-serif;
     margin: 0px;
     padding: 0;
@@ -83,4 +83,8 @@ body {
   a.signup{
     position: relative;
     margin-left: 0px;
+  }
+  #form{
+    align-items: center;
+    justify-content: center;
   }
