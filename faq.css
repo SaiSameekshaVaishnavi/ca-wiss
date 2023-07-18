@@ -161,13 +161,13 @@
     margin: 10px 0px 10px;
 }
 #about .img1{
-    height: 120px;
-    width: 40%;
+    height: 150px;
+    width: 50%;
     padding:10px 12px;
 }
 #about .img2{
-    height:120px;
-   width:40%;
+    height:150px;
+   width:50%;
    padding:10px 19px ;
 }
 #about  h2{
@@ -220,26 +220,30 @@
   
   #works  .carousel-control-prev-icon {
     background-color: aquamarine;
-   color: blue;
+  
   }
   #works  .carousel-control-next-icon {
     background-color: aquamarine;
-   color: blue;
+
   }
   
   #works  .carousel-control-prev {
     width: 5%;
+    color: black;
   }
   #works   .carousel-control-next {
     width: 5%;
+    color: black;
   }
   
   #works .carousel-control-prev {
     left: 0;
+    color: black;
   }
   
   #works .carousel-control-next {
     right: 0;
+    color: black;
   }
 
 
@@ -520,7 +524,7 @@
 }
   
   #contact .hero {
-    margin:  auto 22rem 10rem;
+    margin:  auto 19rem 10rem;
     margin-top: 4rem;
     padding: 60px 20px;
     width: 50%;
@@ -665,6 +669,7 @@
 #contactdetails  .CONTACT h2{
     margin-top: 25px;
     margin-left: 4em;
+    color: whitesmoke;
     @media (max-width:767px) {
         text-align: center;
         margin: 25px 10px auto;
@@ -681,9 +686,10 @@
    /* margin-top: 5%;*/
     font-family: cursive;
 }
+
 #copies  {
     background-color:black;
-    height: 10vh;
+    height: 18vh;
     width: 100%;
 }
 #copies  .container-class{
